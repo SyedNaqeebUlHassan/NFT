@@ -15,7 +15,7 @@ function CollectionCard() {
     <div className='mt-[100px] pl-[12.5px] pr-[12.5px] sm:pl-0 sm:pr-0 sm:ml-[122px] sm:mr-[120px] flex justify-between items-center  flex-wrap '>
         {cardImage.map((data,i)=>{
             return (
-                    <div style={{background:'rgba(255, 255, 255, 0.1',boxShadow:" 0px 5px 4px rgba(0, 0, 0, 0.25)"}} className='Card-Wrapper w-[170px] h-[400px] sm:w-[389px] sm:h-[595px] rounded-xl flex justify-center items-center flex-col mt-[15px]'>
+                    <div key={i} style={{background:'rgba(255, 255, 255, 0.1',boxShadow:" 0px 5px 4px rgba(0, 0, 0, 0.25)"}} className='Card-Wrapper w-[170px] h-[400px] sm:w-[389px] sm:h-[595px] rounded-xl flex justify-center items-center flex-col mt-[15px]'>
                         <div className='Card-Img w-[150px] h-[190px] sm:w-[337px] sm:h-[380px] rounded-xl '>
                                 <img
                                 src={data.img}

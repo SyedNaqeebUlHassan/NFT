@@ -11,8 +11,8 @@ function TopCard() {
   return (
     <div className='mt-[20px] pl-[12.5px] pr-[12.5px] sm:pl-0 sm:pr-0 sm:mt-[100px] sm:ml-[122px] flex justify-between items-center sm:mr-[120px] flex-wrap'>
 
-      {Data.map((data)=>(    
-             <div style={{background:'rgba(255, 255, 255, 0.1',boxShadow:" 0px 5px 4px rgba(0, 0, 0, 0.25)"}} className='Card-Wrapper w-[170px] h-[330px] sm:w-[389px] sm:h-[525px] rounded-xl flex justify-between items-center flex-col mt-[15px] '>
+      {Data.map((data,i)=>(    
+             <div key={i} style={{background:'rgba(255, 255, 255, 0.1',boxShadow:" 0px 5px 4px rgba(0, 0, 0, 0.25)"}} className='Card-Wrapper w-[170px] h-[330px] sm:w-[389px] sm:h-[525px] rounded-xl flex justify-between items-center flex-col mt-[15px] '>
                         <div className='Card-Img w-[170px] h-[150px] sm:w-[414px] sm:h-[294px] rounded-xl flex justify-between items-center flex-col'>
                                 <img
                                 className='rounded-xl '
