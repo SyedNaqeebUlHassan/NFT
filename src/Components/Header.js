@@ -11,7 +11,7 @@ import TradingOption from './TradingOption'
 
 function Header() {
   return (
-        <div style={{background: "linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)"}}  className=' header  sm:w-[1450px] h-full pb-[100px]'>
+        <div style={{background: "linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)"}}  className=' header pb-[100px] sm:w-[1450px] h-full sm:h-full sm:pb-[400px]'>
         <NavBar/>
             <div  className='flex justify-center items-center flex-col sm:grid sm:grid-cols-2'>
                 <div className='Header-Description '>

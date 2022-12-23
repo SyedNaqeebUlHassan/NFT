@@ -3,7 +3,7 @@ import AboutImage from '../Assests/AboutImage.png'
 import NavBar from './NavBar'
 function About() {
   return (
-    <div style={{background: "linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)"}} className="h-screen sm:pb-[100px] sm:w-[1450px] sm:h-full">
+    <div style={{background: "linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)"}} className="h-screen pb-[100px] sm:pb-[400px] sm:w-[1450px] sm:h-full">
         <NavBar/>
             <div  className='About-Heading flex justify-center items-center mt-[20px] sm:mt-[173.61px]'>
                 <h1 className='text-white font-mono font-bold text-[30px] sm:w-[165px] sm:h-[47px] sm:text-[40px] sm:leading-[47px] '>About<span className='ml-[10px]'>Us</span></h1>

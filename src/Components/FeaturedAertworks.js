@@ -4,7 +4,7 @@ import NavBar from './NavBar'
 
 function FeaturedAertworks() {
   return (
-    <div style={{background: "linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)"}} className="pb-[100px] sm:w-[1450px]">
+    <div style={{background: "linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%)"}} className="pb-[100px] sm:pb-[400px] lg:h-full sm:w-[1450px]">
         <NavBar/>
         <div className='Collection-Heading mt-[20px] sm:mt-[200px] flex justify-center items-center '>
                 <h1 className='text-white text-[30px] sm:w-[273px] sm:h-[60px] font-mono font-bold sm:text-[40px] sm:leading-[60px] sm:mr-[100px]'>Featured<span className='ml-[15px]'>Artworks</span></h1>

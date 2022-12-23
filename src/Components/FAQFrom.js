@@ -3,12 +3,12 @@ import Line from '../Assests/Line1.png'
 
 function FAQFrom() {
   return (
-    <div className='flex justify-between items-center flex-wrap ml-[122px] mr-[120px]'>   
+    <div className='flex justify-between items-center flex-wrap h-screen pb-[100px] sm:ml-[122px] sm:mr-[120px] lg:h-full '>   
         {array.map((data)=>(      
                 <div className='flex justify-center items-center flex-col'>
-                    <div style={{color:"rgba(255, 255, 255, 0.5)"}} className='flex justify-between items-center w-[589.8px] font-mono font-medium text-[20px] leading-[30px] mt-[20px]'>
+                    <div style={{color:"rgba(255, 255, 255, 0.5)"}} className='text-[15px] flex justify-between items-center sm:w-[589.8px] font-mono font-medium sm:text-[20px] sm:leading-[30px] mt-[20px]'>
                         <input
-                        className='bg-transparent w-[550px]'
+                        className='bg-transparent w-[300px] sm:w-[550px]'
                         type="text"
                         placeholder='Lorem ipsum ipsum ?'
                         />
